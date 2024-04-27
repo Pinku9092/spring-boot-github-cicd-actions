@@ -12,7 +12,7 @@ public class SpringBootGithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "welcome to github action learning";
+		return "welcome to github action   learning";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootGithubCicdActionsApplication.class, args);
